@@ -61,6 +61,12 @@ public  class BaseClass {
 		s.selectByVisibleText(data);
 		
 	}
+	private void sysout() {
+		// TODO Auto-generated method stub
+
+	}
+	
+	
 		public static String excel(int rowno,int cellno) throws IOException {
 			File file = new File("C:\\Users\\Administrator\\eclipse-workspace\\FrameWork\\DemoAutomation\\Excel\\Book1.xlsx");
 			FileInputStream stream = new FileInputStream(file);
